@@ -1,7 +1,7 @@
-const TaskCard = () => {
+const TaskCard = (props) => {
   return (
     <div>
-      <h2>title is....</h2>
+      <h2>{props.title}</h2>
       <p>Due on: ...</p>
       <p>Assignee: ...</p>
     </div>
