@@ -1,7 +1,21 @@
-function App() {
+import TaskCard from './TaskCard';
+
+const App = () => {
   return (
-   <h1>Hello world !</h1>
+    <div>
+      <div>
+        <h1>Pending</h1>
+        <TaskCard />
+        <TaskCard />
+        <a href='#!'>New Task</a>
+      </div>
+      <div>
+        <h1>Done</h1>
+        <TaskCard />
+        <TaskCard />
+      </div>
+    </div>
   );
-}
+};
 
 export default App;
